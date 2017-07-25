@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='JenCodeUITests.xctest' tests='1' failures='0'>
+  <testsuite name='JenCodeUITests.JenCodeUITests' tests='1' failures='0'>
+    <testcase classname='JenCodeUITests.JenCodeUITests' name='testExample' time='17.325'/>
+  </testsuite>
+</testsuites>

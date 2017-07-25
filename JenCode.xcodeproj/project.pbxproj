@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A62311A31F26338600D258ED /* JenCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62311A21F26338600D258ED /* JenCodeUITests.swift */; };
+		A62311AB1F26357F00D258ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C603821F21EEC000CFACB7 /* LaunchScreen.storyboard */; };
+		A62311AC1F26361600D258ED /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0890D1F2619990050A48A /* SnapshotHelper.swift */; };
+		A62311B21F2639D800D258ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C6037D1F21EEC000CFACB7 /* Main.storyboard */; };
 		A6C6037A1F21EEC000CFACB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C603791F21EEC000CFACB7 /* AppDelegate.swift */; };
 		A6C6037C1F21EEC000CFACB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C6037B1F21EEC000CFACB7 /* ViewController.swift */; };
 		A6C6037F1F21EEC000CFACB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C6037D1F21EEC000CFACB7 /* Main.storyboard */; };
 		A6C603811F21EEC000CFACB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C603801F21EEC000CFACB7 /* Assets.xcassets */; };
 		A6C603841F21EEC000CFACB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C603821F21EEC000CFACB7 /* LaunchScreen.storyboard */; };
 		A6C6038F1F21EEC000CFACB7 /* JenCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C6038E1F21EEC000CFACB7 /* JenCodeTests.swift */; };
-		A6C6039A1F21EEC000CFACB7 /* JenCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C603991F21EEC000CFACB7 /* JenCodeUITests.swift */; };
+		EE35C32FA6AD936FA23469D5 /* Pods_JenCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AC67DE2E2235598DC36F09 /* Pods_JenCode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6C6038B1F21EEC000CFACB7 /* PBXContainerItemProxy */ = {
+		A62311A51F26338600D258ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6C6036E1F21EEC000CFACB7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A6C603751F21EEC000CFACB7;
 			remoteInfo = JenCode;
 		};
-		A6C603961F21EEC000CFACB7 /* PBXContainerItemProxy */ = {
+		A6C6038B1F21EEC000CFACB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6C6036E1F21EEC000CFACB7 /* Project object */;
 			proxyType = 1;
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77FFBB5E3D6DA1C222770804 /* Pods-JenCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenCode/Pods-JenCode.debug.xcconfig"; sourceTree = "<group>"; };
+		7E665B607BE003931CD012CC /* Pods-JenCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenCode/Pods-JenCode.release.xcconfig"; sourceTree = "<group>"; };
+		A62311A01F26338600D258ED /* JenCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62311A21F26338600D258ED /* JenCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenCodeUITests.swift; sourceTree = "<group>"; };
+		A62311A41F26338600D258ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6C603761F21EEC000CFACB7 /* JenCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C603791F21EEC000CFACB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C6037B1F21EEC000CFACB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,16 +53,25 @@
 		A6C6038A1F21EEC000CFACB7 /* JenCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C6038E1F21EEC000CFACB7 /* JenCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenCodeTests.swift; sourceTree = "<group>"; };
 		A6C603901F21EEC000CFACB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6C603951F21EEC000CFACB7 /* JenCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C603991F21EEC000CFACB7 /* JenCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenCodeUITests.swift; sourceTree = "<group>"; };
 		A6C6039B1F21EEC000CFACB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E0890D1F2619990050A48A /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		E4AC67DE2E2235598DC36F09 /* Pods_JenCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A623119D1F26338600D258ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6C603731F21EEC000CFACB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE35C32FA6AD936FA23469D5 /* Pods_JenCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,23 +82,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6C603921F21EEC000CFACB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		579372EA2A4119C40336159D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77FFBB5E3D6DA1C222770804 /* Pods-JenCode.debug.xcconfig */,
+				7E665B607BE003931CD012CC /* Pods-JenCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		954A66170A3A24BCBB371970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4AC67DE2E2235598DC36F09 /* Pods_JenCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A62311A11F26338600D258ED /* JenCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A62311A21F26338600D258ED /* JenCodeUITests.swift */,
+				A62311A41F26338600D258ED /* Info.plist */,
+			);
+			path = JenCodeUITests;
+			sourceTree = "<group>";
+		};
 		A6C6036D1F21EEC000CFACB7 = {
 			isa = PBXGroup;
 			children = (
 				A6C603781F21EEC000CFACB7 /* JenCode */,
 				A6C6038D1F21EEC000CFACB7 /* JenCodeTests */,
 				A6C603981F21EEC000CFACB7 /* JenCodeUITests */,
+				A62311A11F26338600D258ED /* JenCodeUITests */,
 				A6C603771F21EEC000CFACB7 /* Products */,
+				579372EA2A4119C40336159D /* Pods */,
+				954A66170A3A24BCBB371970 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +129,7 @@
 			children = (
 				A6C603761F21EEC000CFACB7 /* JenCode.app */,
 				A6C6038A1F21EEC000CFACB7 /* JenCodeTests.xctest */,
-				A6C603951F21EEC000CFACB7 /* JenCodeUITests.xctest */,
+				A62311A01F26338600D258ED /* JenCodeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +159,7 @@
 		A6C603981F21EEC000CFACB7 /* JenCodeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A6E0890D1F2619990050A48A /* SnapshotHelper.swift */,
 				A6C603991F21EEC000CFACB7 /* JenCodeUITests.swift */,
 				A6C6039B1F21EEC000CFACB7 /* Info.plist */,
 			);
@@ -128,13 +169,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A623119F1F26338600D258ED /* JenCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62311A71F26338600D258ED /* Build configuration list for PBXNativeTarget "JenCodeUITests" */;
+			buildPhases = (
+				A623119C1F26338600D258ED /* Sources */,
+				A623119D1F26338600D258ED /* Frameworks */,
+				A623119E1F26338600D258ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62311A61F26338600D258ED /* PBXTargetDependency */,
+			);
+			name = JenCodeUITests;
+			productName = JenCodeUITests;
+			productReference = A62311A01F26338600D258ED /* JenCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A6C603751F21EEC000CFACB7 /* JenCode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6C6039E1F21EEC000CFACB7 /* Build configuration list for PBXNativeTarget "JenCode" */;
 			buildPhases = (
+				7943A21C02CA744F321D65CA /* [CP] Check Pods Manifest.lock */,
 				A6C603721F21EEC000CFACB7 /* Sources */,
 				A6C603731F21EEC000CFACB7 /* Frameworks */,
 				A6C603741F21EEC000CFACB7 /* Resources */,
+				6BF4D7A41B78A585E33E8EF6 /* [CP] Embed Pods Frameworks */,
+				A3B19B7D70AABA8BB036ACBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,24 +225,6 @@
 			productReference = A6C6038A1F21EEC000CFACB7 /* JenCodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6C603941F21EEC000CFACB7 /* JenCodeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A6C603A41F21EEC000CFACB7 /* Build configuration list for PBXNativeTarget "JenCodeUITests" */;
-			buildPhases = (
-				A6C603911F21EEC000CFACB7 /* Sources */,
-				A6C603921F21EEC000CFACB7 /* Frameworks */,
-				A6C603931F21EEC000CFACB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A6C603971F21EEC000CFACB7 /* PBXTargetDependency */,
-			);
-			name = JenCodeUITests;
-			productName = JenCodeUITests;
-			productReference = A6C603951F21EEC000CFACB7 /* JenCodeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,16 +235,17 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Jenkins;
 				TargetAttributes = {
-					A6C603751F21EEC000CFACB7 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-					};
-					A6C603891F21EEC000CFACB7 = {
+					A623119F1F26338600D258ED = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A6C603751F21EEC000CFACB7;
 					};
-					A6C603941F21EEC000CFACB7 = {
+					A6C603751F21EEC000CFACB7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6BYAX44NX2;
+						ProvisioningStyle = Automatic;
+					};
+					A6C603891F21EEC000CFACB7 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A6C603751F21EEC000CFACB7;
@@ -222,12 +267,21 @@
 			targets = (
 				A6C603751F21EEC000CFACB7 /* JenCode */,
 				A6C603891F21EEC000CFACB7 /* JenCodeTests */,
-				A6C603941F21EEC000CFACB7 /* JenCodeUITests */,
+				A623119F1F26338600D258ED /* JenCodeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A623119E1F26338600D258ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62311AB1F26357F00D258ED /* LaunchScreen.storyboard in Resources */,
+				A62311B21F2639D800D258ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6C603741F21EEC000CFACB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,16 +299,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6C603931F21EEC000CFACB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BF4D7A41B78A585E33E8EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenCode/Pods-JenCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		7943A21C02CA744F321D65CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B19B7D70AABA8BB036ACBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenCode/Pods-JenCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A623119C1F26338600D258ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62311A31F26338600D258ED /* JenCodeUITests.swift in Sources */,
+				A62311AC1F26361600D258ED /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6C603721F21EEC000CFACB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,26 +376,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6C603911F21EEC000CFACB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6C6039A1F21EEC000CFACB7 /* JenCodeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A62311A61F26338600D258ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6C603751F21EEC000CFACB7 /* JenCode */;
+			targetProxy = A62311A51F26338600D258ED /* PBXContainerItemProxy */;
+		};
 		A6C6038C1F21EEC000CFACB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A6C603751F21EEC000CFACB7 /* JenCode */;
 			targetProxy = A6C6038B1F21EEC000CFACB7 /* PBXContainerItemProxy */;
-		};
-		A6C603971F21EEC000CFACB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A6C603751F21EEC000CFACB7 /* JenCode */;
-			targetProxy = A6C603961F21EEC000CFACB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -315,6 +411,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A62311A81F26338600D258ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JenCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.JenCode.JenCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JenCode;
+			};
+			name = Debug;
+		};
+		A62311A91F26338600D258ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JenCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.JenCode.JenCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JenCode;
+			};
+			name = Release;
+		};
 		A6C6039C1F21EEC000CFACB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -412,8 +532,10 @@
 		};
 		A6C6039F1F21EEC000CFACB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FFBB5E3D6DA1C222770804 /* Pods-JenCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BYAX44NX2;
 				INFOPLIST_FILE = JenCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.JenCode.JenCode;
@@ -424,8 +546,10 @@
 		};
 		A6C603A01F21EEC000CFACB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E665B607BE003931CD012CC /* Pods-JenCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BYAX44NX2;
 				INFOPLIST_FILE = JenCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.JenCode.JenCode;
@@ -462,35 +586,17 @@
 			};
 			name = Release;
 		};
-		A6C603A51F21EEC000CFACB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = JenCodeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.JenCode.JenCodeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = JenCode;
-			};
-			name = Debug;
-		};
-		A6C603A61F21EEC000CFACB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = JenCodeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uttam.JenCode.JenCodeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = JenCode;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A62311A71F26338600D258ED /* Build configuration list for PBXNativeTarget "JenCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62311A81F26338600D258ED /* Debug */,
+				A62311A91F26338600D258ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A6C603711F21EEC000CFACB7 /* Build configuration list for PBXProject "JenCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -507,6 +613,7 @@
 				A6C603A01F21EEC000CFACB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6C603A11F21EEC000CFACB7 /* Build configuration list for PBXNativeTarget "JenCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,14 +622,7 @@
 				A6C603A31F21EEC000CFACB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		A6C603A41F21EEC000CFACB7 /* Build configuration list for PBXNativeTarget "JenCodeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6C603A51F21EEC000CFACB7 /* Debug */,
-				A6C603A61F21EEC000CFACB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

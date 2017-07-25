@@ -29,26 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A6C603891F21EEC000CFACB7"
-               BuildableName = "JenCodeTests.xctest"
-               BlueprintName = "JenCodeTests"
-               ReferencedContainer = "container:JenCode.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A6C603941F21EEC000CFACB7"
-               BuildableName = "JenCodeUITests.xctest"
-               BlueprintName = "JenCodeUITests"
-               ReferencedContainer = "container:JenCode.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

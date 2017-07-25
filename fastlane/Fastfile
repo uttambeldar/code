@@ -1,30 +1,58 @@
-# More documentation about how to customize your build
-# can be found here:
-# https://docs.fastlane.tools
-fastlane_version "1.109.0"
-
-# This value helps us track success metrics for Fastfiles
-# we automatically generate. Feel free to remove this line
-# once you get things running smoothly!
-generated_fastfile_id "80020c59-236f-460d-962f-145ed9776d44"
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.6.0"
 
 default_platform :ios
 
-# Fastfile actions accept additional configuration, but
-# don't worry, fastlane will prompt you for required
-# info which you can add here later
-lane :beta do
-  # cocoapods
+platform :ios do
 
-  # build your iOS app
-  gym(
-    # scheme: “JenCode”,
-    export_method: "ad-hoc"
-  )
+  # 1
+  desc "Creating a code signing certificate and provisioning profile"
+  # 2
+  lane :provision do
+    # 3
+    produce(
+      app_name: ‘JenCode’,
+      language: 'English',
+      app_version: '1.0',
+      sku: '123abc'
+    )
+    # 4
+    cert
+    # 5
+    sigh(force: true)
 
-  # upload to Beta by Crashlytics
-  crashlytics(
-    # api_token: "YOUR_API_KEY",
-    # build_secret: "YOUR_BUILD_SECRET"
-  )
+
+  end
+
+
+   desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+ desc "Runs for Build“
+  lane :build do
+ #gym(scheme: “JenCode”, workspace: “JenCode.xcworkspace")
+ slather(
+  build_directory: "/Users/Shared/Jenkins/Desktop/JenCode",
+  input_format: "bah",
+  scheme: "JenCode",
+  proj: "JenCode.xcodeproj"
+)    
+  end
+
+ 
+ #desc "Take screenshots"
+  #lane :screenshot do
+   # snapshot
+ # end
+
+
+ error do |lane, exception|
+  # This block is called if there was an error running a lane.
+  end
+
+
+
 end
